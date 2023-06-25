@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Note: keep this script fast.
+
+exec python3 git/pre-commit.py "$@"
